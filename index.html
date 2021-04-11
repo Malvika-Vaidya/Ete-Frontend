@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>body{
+        background-image: url("coronavirus.jpg");}</style>
+    <meta charset="UTF-8">
+    <title>Frontend End Term</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="container">
+<form class="form-inline" onsubmit="output()">
+    <input type="text" class="form-control" name="country" id="country" placeholder="country">
+    <input type="date" class="form-control" name="startDate" id="start">
+    <input type="date" class="form-control" name="endDate" id="end">
+    <input type="submit" class="form-control btn btn-primary" id="submit" value="Submit">
+</form>
+<div id="output"></div>
+<script src="index.js"></script>
+</body>
+</html>
